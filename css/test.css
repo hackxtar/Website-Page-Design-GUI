@@ -1,0 +1,88 @@
+.search-result {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 5%;
+}
+
+.main-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+}
+.suggession {
+    width: 100%;
+}
+
+
+
+.whois a {
+
+    color: #dc0048 !important;
+}
+
+.whois {
+    background: #f2f5ff;
+    color: #dc0048 !important;
+}
+
+.main-list h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+.suggenssion-line {
+    display: flex;
+    align-items: center;
+    color: #8b8b93;
+
+}
+
+.suggenssion-line hr {
+    width: 80%;
+}
+
+.suggenssion-line p {
+    line-height: 2.0;
+
+}
+.suggession-wrapper
+{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+.seggession-innerWrapper .icon-shop{
+    background: url('../icons/shoping.svg') no-repeat center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:10%;
+    height: 100%;
+
+}
+
+.seggession-innerWrapper .icon-details{
+    background: url('../icons/details.svg') no-repeat center;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width:10%;
+    height: 100%;
+
+}
+
+.whois .seggession-innerWrapper .icon-details{
+    background: url('../icons/details.svg') no-repeat center;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width:10%;
+    height: 100%;
+
+}
+
